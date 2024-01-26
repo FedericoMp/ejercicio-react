@@ -1,0 +1,22 @@
+#Calculation {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+    background-color: var(--dark-blue2);
+}
+
+#Calculation > .text-caption {
+    margin: 0;
+    font-size: small;
+    font-weight: bold;
+    padding-left: .5rem;
+    text-transform: uppercase;
+}
+
+#Calculation > .result {
+    margin: 0;
+    font-weight: bold;
+    font-size: x-large;
+    padding-right: .5rem;
+}
