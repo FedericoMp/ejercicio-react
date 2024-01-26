@@ -1,0 +1,76 @@
+.SliderInptContainer {
+    display: flex;
+    margin: .5rem 0;
+    flex-direction: column;
+}
+
+/* Text content section */
+.text-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-content > p {
+    text-transform: uppercase;
+}
+
+.text-content > .amount-container {
+    min-width: 25%;
+    padding: 0.2rem;
+    border: 1px solid #ffffffab;
+}
+
+.text-content > .amount-container > span {
+    font-weight: bold;
+    padding-left: 0.5rem;
+    font-family: 'Montserrat';
+}
+
+.text-content >.amount-container > input[type="text"] {
+    border: none;
+    color: white;
+    max-width: 10vw;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Montserrat';
+    background-color: transparent;
+}
+
+.text-content > .amount-container > input[type="text"]:focus {
+    outline: none;
+}
+
+/* Error message */
+small {
+    width: 100%;
+    color: crimson;
+    margin: 0.5rem 0;
+    text-align: right;
+    display: inline-block;
+}
+
+/* Slider section */
+.rc-slider {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.rc-slider > .rc-slider-rail,
+.rc-slider > .rc-slider-track {
+    background-color: #fff;
+}
+
+.rc-slider>.rc-slider-handle {
+    opacity: 1;
+    border-color: #fff;
+}
+
+/* Slider caption */
+.slider-caption {
+    display: flex;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
